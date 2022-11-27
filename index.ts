@@ -1,11 +1,13 @@
-import { Client } from "discord.js";
+import { Client, GatewayIntentBits } from "discord.js";
+
+require("dotenv").config();
 
 console.log("Bot is starting...");
 
 const client = new Client({
-    intents: []
+    intents: [GatewayIntentBits.Guilds]
 });
 
-client.login("");
+client.login(process.env.TOKEN);
 
 console.log(client);
