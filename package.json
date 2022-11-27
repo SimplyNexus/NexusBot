@@ -1,0 +1,22 @@
+{
+  "name": "nexusbot",
+  "version": "1.0.0",
+  "description": "Bot for the SimplyNexus discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimplyNexus/NexusBot.git"
+  },
+  "author": "ItsSimplyLeo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimplyNexus/NexusBot/issues"
+  },
+  "homepage": "https://github.com/SimplyNexus/NexusBot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  }
+}
